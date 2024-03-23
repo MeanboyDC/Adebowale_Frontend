@@ -55,7 +55,7 @@ nav ul li a:hover{
     padding: 20px;
     border: 2px solid white;
     margin: 0px;
-    background-color: white;
+    background-color: #fbfbfd;
 
 
 }
@@ -73,9 +73,9 @@ nav ul li a:hover{
     width: 100%;
     height: fit-content;
     padding: 0px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 0px;
-    background-color: #f2f2f2;
+    background-color: #fbfbfd;
     display: flex;
     flex-direction: row;
 
@@ -85,7 +85,7 @@ nav ul li a:hover{
     width: 100%;
     height: fit-content;
     padding: 0px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 0px;
     background-color: black;
     display: flex;
@@ -93,20 +93,86 @@ nav ul li a:hover{
 
 
 }
+.Grid{
+    display: grid;
+    grid-template-columns: 500px, 500px;
 
-.Division{
-    width: 50%;
+
+}
+
+.Division {
+    border: 2px solid black;
+    padding: 10px;
+    }
+#grid1{
+    background-image: url(./Img/IMG_1833.JPG);
     height: 500px;
-}
-
-#Division1{
-    background-color: white;
-    
-    
 
 }
-#Division2{
-    background-color: black;
+
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.Top, .Bottom {
+    display: flex;
     
-   
+    
+
+
+}
+
+.Box {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    height: 100vh;
+    
+
+}
+
+.float{
+    flex-direction: column;
+    height: 40vh;
+    
+
+}
+.semifloat1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: right;
+
+}
+.semifloat2{
+    margin-right: 120px;
+
+
+
+}
+.Position{
+    background-color: aqua;
+    top: 50px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+}
+.anime{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: grow-shrink 2s infinite alternate;
+}
+@keyframes grow-shrink {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
 }
