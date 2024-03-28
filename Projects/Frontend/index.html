@@ -8,7 +8,7 @@
     <title>
         HP
     </title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body>
@@ -35,7 +35,8 @@
 <div class="Container">
     <div class="Top">
     <div class="Box"> 
-              
+              <p id="Paragraph"> This is a Container Paragraph</p>
+              <button id="button"> click here!</button>
     </div>
     <div class="Box"> 2</div>
     </div>
@@ -57,110 +58,8 @@
 </div>
 <link rel="Stylesheet" href="Index.css">
 
-<form action="/Save-form" method="post">
+<script src="index.js"></script>
 
-    <p>
-
-    </p>
-
-    <label for="Username">Username:</label>
-
-    <input
-        type="text"
-        id="Username"
-        name="Username"
-        placeholder="Enter Username"        
-    
-    />
-    <br><br>
-    <lable for="Password"> Password</lable>
-
-    <input
-        type="password"
-        id="Password" 
-        name="Password"
-        placeholder="Enter Password"   
-        required
-    />
-
-   <br><br>
-   
-    <label for="email"> Email: </label>
-    <input type="email"
-    id="Email"
-    name="Email"
-    placeholder="Enter your Email"
-    required
-    />
-    <br><br>
-    
-    <label for="Quantity"> Children:</label>
-    <input type="number"
-    id="Number"
-    name="Children"
-    min="1"
-    max="11"
-    />
-    <br><br>
-
-    <label for="Phone"> Phone Number</label>
-    <input type="tel"
-    id="Phone"
-    name="Phone"
-    pattern="[0-11]"
-    placeholder="XXX-XXXX-XXXX"
-    minlength="11"
-    maxlength="11"
-    required
-    />
-    <br><br>
-
-    <input type="checkbox"
-    id="checkbox"
-    name="Subscribe"
-    />
-    <label for="checkbox"> Subscribe to Newsletter </label>
-    <br><br>
-
-    
-    <input type="radio"
-    id="radio"
-    value="Male" />
-    <label for="radio">Male</label>
-
-    <input type="radio"
-    id="radio"
-    value="Female"/>
-    <label for="radio"> Female</label>
-
-    <br><br>
-    <label for="date"> Date of Birth</label>
-    <input type="date"
-    value="date"
-    id="date"
-    name="date"
-        />
-    <br><br>
-
-    <label for="File"> Passport </label>
-    <input type="file"
-    id="file"
-    name="Passport" 
-    accept=".Jpeg, .Jpg, .Png"
-    name="file"
-    />
-
-
-    <br><br>
-
-
-    <button type="button"> General</button>
-    <input type="button" value="Submit"/>
-    <input type="button" value="Submit"/>
-
-    
-  
-</form>
-
+<p></p>
 </body>
 </html>
