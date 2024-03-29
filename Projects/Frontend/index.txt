@@ -1,0 +1,40 @@
+
+// Arithmetric operators + * - /
+// Comparison operators == != > <
+// Logical operators 
+    And-&&  both of them
+    or- ||  one of them
+    Not-! either one or none
+// Assignment operators 
+        assign = 
+        add and assign =+
+        subtract and assign -=
+// Unary operators  
+        decrement --
+        increment ++ 
+
+// Tinary operators
+    condition ? value1 : value2
+
+CONTROL FLOW
+        1. conditional statements if .. else statement
+        2. Loops - it Loops through until a condition is met e.g for, while, do..while 
+
+String method
+        .slice
+        .replace
+        .tolowercase
+        .touppercase
+        .repeat
+        .indexof
+        .substring
+        .lastindexof
+
+Number method
+        .tofixed(decimals)
+        .isInteger(to confirm is a number data is and integal number)
+        .floor(rounds number data up to the nearest integal)
+
+
+Loops
+        for
