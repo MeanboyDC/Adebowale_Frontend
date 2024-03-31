@@ -7,21 +7,29 @@
 
 <body>
     <link rel="Stylesheet" href="assignment.css">
-    <nav>
+    <nav id="nav">
         <h1>STATIC WEBPAGE</h1>
+        <div>
+        <input type="search" id="search">
+        <button type="button" id="search"> Search</button>
+    </div>
     </nav>
-   
-    <div class="Topic"><P><b> BIO </b></P></div>
+    <P class="Topic"><b> BIO </b></P>
 <div class="Bio">
+<form>
     <p><b>Name:</b> Ogunjimi Adebowale</p>
     <p><b>Sex:</b> Male</p>
     <p><b>Nationality:</b> Nigerian</p>
     <label for="Date"><b>Date of Birth:</b></label>
-    <input type="date" id="date" name="Date of Birth"/>
+    <input type="date" id="date" name="Date of Birth" class="input"/>
     <br><br>
     <label for="tel"><b>Phone Number:</b></label>
-    <input type="number" id="tel" name="tel" placeholder="09099009900" />
+    <input type="number" id="tel" name="tel" placeholder="09099009900" class="input"/>
+    <br><br>
+    <label for="Email"> <b>Email:</b></label>
+    <input type="text" id="Email" name="Email" placeholder="Example@gmail.com" class="input"/>
     <br>
+</form>
 </div>
 <div class="Skills"> <p><b><u>Skills:</u></b></p>
     <li class="list">MS OS</li>
@@ -29,23 +37,111 @@
     <li class="list">HTML</li>
 </div>
     <br>
-    <label for="Email"> <b>Email:</b></label>
-    <input type="text" id="Email" name="Email" placeholder="Example@gmail.com"/>
-    <br>
-    <p class="end"><i>The end</i></p>
+    
+        <div class="Passport">
+        <img id="img" src="/Img/IMG_1833.JPG" height="130" width="120" alt="Passport">
+    </div>
+    <br><br>
+<fieldset> Credentials </fieldset>
+<table>
+    <thead >
+    <tr id="tablehead">
+        <th>
+            S/N
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            Certificates
+        </th>
+        <th>
+            Year
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>
+            1
+        </td>
+        <td>
+            Nigeria
+        </td>
+        <td>
+            First School Leaving Certificate
+        </td>
+        <td>
+            2006
+        </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Nigeria
+            </td>
+            <td>
+                SSCE
+            </td>
+            <td>
+                2012
+            </td>
+       
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Nigeria
+            </td>
+            <td>
+                Diploma
+            </td>
+            <td>
+                2012
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4
+            </td>
+            <td>
+                Nigeria
+            </td>
+            <td>
+                B.Sc
+            </td>
+            <td>
+                2024
+            </td>
 
-    <br>
+        </tr>
+    </tbody>
 
 
+</table>
 
 
+<br><br>
+<div id="Brief">
+<h3>Brief about me</h3>
+<p id="paragraph"> 
+Ogunjimi Adebowale hails from Oyo state and was raised...... </p>
+<button id="js">Read More!</button>
+</div>
 
 
+<br>
+
+<p class="end"><i>The end</i></p>
+<br>
+<a href="" target="_top">Top</a>
 
 
-
-
-
+<script src="assignment.js"></script>
 
 
 </body>

@@ -156,3 +156,72 @@ for (const richpeople of Billionaires){
 // Access Elements (getElement)
 // FAMILIES OF DOCUMENT CLASS
 
+
+
+
+// my workings
+function classscore  (Elvis, Abimbola, Michael, Samuel, Wealth){
+    return Elvis + Abimbola + Michael + Samuel + Wealth
+}
+let total = classscore(1,2,3,4,5)
+console.log(total)
+
+
+
+// examples
+const Students = [
+        {name: "Judge", Age: 18},
+        {name: "Judge", Age: 18},
+        {name: "Judge", Age: 18},
+        {name: "Judge", Age: 18},
+        {name: "Judge", Age: 18},
+        {name: "Judge", Age: 18}
+]
+// examples
+
+let Nigerians = ["Elvis", "Abimbola", "Michael", "Samuel", "Wealth", "Funmi",]
+
+let Canadians = [
+
+    "Ayobami", "Yahaya", "Idris"
+]
+
+const Newnations = Nigerians.concat(Canadians)
+console.log(Newnations)
+
+let numbers = [1,2,3,4,5,6,7,8,9,10]
+let squarednumbers = numbers.map(num=> num * num)
+console.log(squarednumbers)
+
+const fruits = ["Apple", "Banana", "Orange"]
+const newfruit =fruits.slice(1,2) 
+console.log(newfruit)
+console.log(fruits.slice(2))
+
+let statements = "i am accepted"
+const newest = statements.slice(1,6)
+console.log(newest)
+
+
+let things = ["Coconut", "Cherry", "Pawpaw", "Tangarine", "Lemon" ]
+const newthings = things.sort()
+console.log(newthings)
+
+let networth = [100,250, 300, 400, 600]
+let nworth = networth.filter(numm=> numm > 300)
+console.log(nworth)
+
+
+function addition (a,b){
+    let c = a + b
+    return c
+
+}
+
+function subtractions (a,b){
+    let c = a - b
+    return c
+}
+
+console.log(addition(50,50))
+console.log(subtractions(25,6))

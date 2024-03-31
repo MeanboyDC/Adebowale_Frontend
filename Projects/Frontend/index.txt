@@ -38,3 +38,27 @@ Number method
 
 Loops
         for
+
+ARRAYS AND FUNCTIONS
+ARRAYS [] 
+        Arrays of Numbers (const class_score)
+        similar items
+        items have index number
+        add items
+        remove items
+        change items
+        arrys can have the same or different data types
+FUCTIONS
+        takes input (parameters or auguments)
+        give output
+        helps to devide your codes to modules
+        it is reuseable
+ARRAY METHODS
+        .push() add elements to Arrays  
+        .pop() remove elements from an arrays
+        .splice() to replace or remove elements from an array
+        .concat() to join two arrays  
+        .map() map out elements in an array
+        .sort() sorts/arrange elements of an array
+        .filter() filter out  elements in an array that meets specific condition
+
