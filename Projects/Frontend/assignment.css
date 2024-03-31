@@ -172,3 +172,7 @@ h3{
     font-weight: 600;
     font-style: initial;
 }
+#js{
+    border: none;
+    float: right;
+}
